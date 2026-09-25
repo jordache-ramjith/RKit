@@ -1,4 +1,4 @@
-Package: mmbslearn
+Package: RKit
 Title: Learn Basic Statistics Through Data and Reproducible R Code
 Version: 0.5.1
 Authors@R: person("Jo", "Ramjith", role = c("aut", "cre"), email = "Jordache.Ramjith@radboudumc.nl")
