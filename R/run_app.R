@@ -1,5 +1,6 @@
-#' Launch the statistics learning app
+#' Launch RKit
 #' @export
-run_mmbs_app <- function(...) {
-  shiny::runApp(system.file("app", package = "mmbslearn"), ...)
+run_rkit <- function(...) {
+  app_dir <- system.file("app", package = "Rkit", mustWork = TRUE)
+  shiny::runApp(app_dir, ...)
 }

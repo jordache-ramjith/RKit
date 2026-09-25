@@ -1,4 +1,4 @@
-export(run_mmbs_app)
+export(run_rkit)
 importFrom(bslib,bs_theme)
 importFrom(dplyr,mutate)
 importFrom(ggplot2,ggplot)
