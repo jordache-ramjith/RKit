@@ -1,0 +1,12 @@
+Package: mmbslearn
+Title: Learn Basic Statistics Through Data and Reproducible R Code
+Version: 0.5.1
+Authors@R: person("Jo", "Ramjith", role = c("aut", "cre"), email = "Jordache.Ramjith@radboudumc.nl")
+Description: A guided Shiny learning application for importing, preparing and
+    describing data, estimating means and proportions, guided hypothesis testing, and linear regression with interactions. Includes self-contained tutorials, example data, ggplot2
+    figures and complete reproducible analysis scripts. First review release.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: shiny, bslib, ggplot2, dplyr, readr, readxl, zip
+Suggests: testthat, DescTools, epitools
